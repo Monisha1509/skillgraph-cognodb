@@ -120,6 +120,7 @@ class DatabaseUnavailable(Exception):
 
 
 db = Database(COGNODB_URI, COGNODB_USERNAME, COGNODB_PASSWORD)
+db.connect()
 
 
 # ======================================================================
